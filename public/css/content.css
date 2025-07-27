@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.form-body {
+  width: 1200px;
+}
+
+.feedback-input {
+  color: #161616;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #bbdfc5;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid ;
+  border: 2px solid #b3f5c6;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  width: 20%;
+  background: #bbdfc5;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: #161616;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: #a8f0bc;
+}
+
+.shoe-size{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bg{
+  background: #bbdfc5;
+}
+
+.line_through{
+  text-decoration: line-through;
+
+}
+
+.whatsappNum{
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.num{
+  margin-top: 12px;
+}
+
+.checkbox{
+  margin-top: 5px;
+}
+
+.txt{
+  color: #000;
+}
